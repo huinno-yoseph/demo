@@ -4,7 +4,6 @@ metadata:
   name: spring-boot-demo-app
   namespace: argocd
   annotations:
-    notifications.argoproj.io/subscribe.sync-operation-change.slack: 1-team-sqa
     notifications.argoproj.io/subscribe.on-deployed.build-acceptance-test: ""
 spec:
   project: default

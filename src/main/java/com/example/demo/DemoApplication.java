@@ -20,4 +20,10 @@ class HelloController {
     public String hello() {
         return "Hello, ArgoCD!";
     }
+
+
+    @GetMapping("/world")
+    public String world() {
+        return "world, ArgoCD!";
+    }
 }

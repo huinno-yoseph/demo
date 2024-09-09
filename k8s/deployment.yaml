@@ -18,7 +18,7 @@ spec:
         - name: spring-boot-demo
           image: clmfkilu/spring-boot-demo:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 7001
           env:
             - name: JAVA_OPTS
               value: "-Xms256m -Xmx512m"
